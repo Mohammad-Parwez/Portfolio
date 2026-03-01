@@ -30,9 +30,9 @@ export const Hero = () => {
                             exceptional user experience.
                         </p>
                         <div className="flex flex-wrap gap-4">
-                            <button className="bg-zinc-900 text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-zinc-800 transition-all group">
+                            <a href="#projects" className="bg-zinc-900 text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-zinc-800 transition-all group">
                                 View My Work <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                            </button>
+                            </a>
                             <a
                                 href={CV_URL}
                                 target="_blank"

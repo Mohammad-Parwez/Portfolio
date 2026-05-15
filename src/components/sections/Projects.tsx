@@ -27,6 +27,15 @@ export const Projects = () => {
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     referrerPolicy="no-referrer"
                                 />
+                                {project.logo && (
+                                    <div className="absolute top-4 left-4 w-12 h-12 bg-white rounded-xl shadow-lg border border-zinc-100 p-2 z-10 group-hover:scale-110 transition-transform duration-500">
+                                        <img
+                                            src={project.logo}
+                                            alt={`${project.title} logo`}
+                                            className="w-full h-full object-contain"
+                                        />
+                                    </div>
+                                )}
                                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                                     <a
                                         href={project.link}

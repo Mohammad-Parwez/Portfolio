@@ -20,6 +20,7 @@ export const PROJECTS: Project[] = [
         description: "An AI tool that takes JavaScript code as input, reviews it for issues, and provides actionable feedback and optimized solutions.",
         tags: ["React", "Node.js", "Express", "Gemini API"],
         image: "/Ai-assistance (2).png",
+        logo: "/logos/ai-code-reviewer.png",
         link: "https://ai-code-review-u2zh.vercel.app/",
         caseStudy: "Reduced manual review time by 60% for small to medium PRs."
     },
@@ -29,6 +30,7 @@ export const PROJECTS: Project[] = [
         description: "An intelligent chatbot assistant that takes user prompts and provides comprehensive details about company description, pricing, services, and contact information.",
         tags: ["React", "Node.js", "Express", "Socket.io", "OpenAI API"],
         image: "/Ai-assistance (1).png",
+        logo: "/logos/ai-assistance.png",
         link: "https://ai-assistance-ruddy.vercel.app/",
         caseStudy: "Successfully automated 70% of common support queries for a pilot client."
     },
@@ -38,6 +40,7 @@ export const PROJECTS: Project[] = [
         description: "Diagnosed and resolved critical bugs in the production environment, optimized application performance, and successfully managed end-to-end project deployment workflows.",
         tags: ["MERN Stack", "Bug Fixing", "Deployment", "Optimization"],
         image: "/PhishFarm.png",
+        logo: "/logos/phishfarm.png",
         link: "https://www.phishfarm.com/",
         caseStudy: "Resolved critical system issues and successfully deployed the project to production."
     },
@@ -47,8 +50,29 @@ export const PROJECTS: Project[] = [
         description: "A SaaS platform developed at iPageums to track employee activity, attendance, and project statuses. Includes a real-time chat section for colleagues.",
         tags: ["MERN Stack", "Socket.io", "Real-time Chat", "SaaS", "AWS"],
         image: "/ETS.png",
+        logo: "/logos/ets.png",
         link: "#",
         caseStudy: "Streamlined employee monitoring and enhanced team communication through a unified platform."
+    },
+    {
+        id: 5,
+        title: "DroneTV",
+        description: "A specialized drone marketplace built on AWS and React, facilitating high-performance browsing and secure transactions for drone enthusiasts and businesses.",
+        tags: ["React", "AWS", "Marketplace", "Cloud Infrastructure"],
+        image: "/dronetv.png",
+        logo: "/logos/dronetv.png",
+        link: "https://www.dronetv.in/",
+        caseStudy: "Leveraged AWS services to ensure high availability and scalability for a niche marketplace."
+    },
+    {
+        id: 6,
+        title: "DarkNetTracker",
+        description: "A robust security monitoring platform that tracks domain and password breaches. Features a sophisticated token and role-based authentication system.",
+        tags: ["NestJS", "React", "PostgreSQL", "RBAC", "Security"],
+        image: "/darknetracker.png",
+        logo: "/logos/darknetracker.png",
+        link: "https://darknettracker.com",
+        caseStudy: "Implemented advanced security protocols to monitor and alert users of data breaches in real-time."
     }
 ];
 
@@ -90,7 +114,7 @@ export const EXPERIENCES: Experience[] = [
 export const SKILLS = {
     frontend: ["React", "Angular", "JavaScript", "TypeScript", "Tailwind CSS"],
     backend: ["Node.js", "Express", "JWT", "Socket.io", "REST APIs", "Webhooks", "AWS Lambda", "API Integration"],
-    database: ["MongoDB", "DynamoDB"],
+    database: ["MongoDB", "DynamoDB", "PostgreSQL", "SQL"],
     tools: ["Git", "GitHub", "Vercel", "Postman", "AWS"]
 };
 
@@ -114,6 +138,7 @@ export const INDUSTRIES = [
     { name: "E-Commerce", iconName: "Layout" },
     { name: "Open Tracking", iconName: "Rocket" },
     { name: "Real Estate", iconName: "Globe" },
-    { name: "SaaS", iconName: "Layers" }
+    { name: "SaaS", iconName: "Layers" },
+    { name: "Cybersecurity", iconName: "Shield" }
 ];
 
